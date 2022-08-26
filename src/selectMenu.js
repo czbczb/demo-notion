@@ -116,7 +116,6 @@ class SelectMenu extends React.Component {
                 onClick={() => this.props.onSelect(item.tag)}
               >
                 {item.label}
-                <MaxEditor></MaxEditor>
               </div>
             );
           })}

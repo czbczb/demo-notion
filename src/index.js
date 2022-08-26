@@ -7,14 +7,12 @@ import EditablePage from "./editablePage";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <h1 className="Logo">notion.clone</h1>
+    <h1 className="Logo">demo-notion</h1>
     <p className="Intro">
-      Helloo{" "}
       <span role="img" aria-label="greetings" className="Emoji">
         👋
       </span>{" "}
-      You can add content below. Type <span className="Code">/</span> to see
-      available elements.
+      请输入<span className="Code">/</span> 看看效果
     </p>
     <EditablePage />
     <MaxEditor></MaxEditor>
