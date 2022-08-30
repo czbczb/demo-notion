@@ -1,6 +1,6 @@
 import React from "react";
 import { matchSorter } from "match-sorter";
-import MaxEditor from "./maxEditor"
+// import MaxEditor from "./maxEditor"
 const MENU_HEIGHT = 150;
 const allowedTags = [
   {

@@ -2,7 +2,6 @@ import React from "react";
 
 import "./styles.css";
 import EditableBlock from "./editableBlock";
-import MaxEditor from "./maxEditor";
 import uid from "./utils/uid";
 import { setCaretToEnd } from "./utils/caretHelpers";
 
